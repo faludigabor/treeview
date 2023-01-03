@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "@devextreme/runtime": "3.0.11",
+    "devexpress-diagram": "2.1.65",
+    "devexpress-gantt": "4.1.37",
+    "devextreme": "22.2.3",
+    "devextreme-quill": "1.5.18",
+    "devextreme-react": "22.2.3",
+    "es6-object-assign": "1.1.0",
+    "inferno": "7.4.11",
+    "inferno-clone-vnode": "7.4.11",
+    "inferno-compat": "7.4.11",
+    "inferno-create-class": "7.4.11",
+    "inferno-create-element": "7.4.11",
+    "inferno-dom": "latest",
+    "inferno-extras": "7.4.11",
+    "inferno-hydrate": "7.4.11",
+    "jszip": "3.7.1",
+    "luxon": "1.28.0",
+    "prettier": "2.7.1",
+    "prop-types": "15.8.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "rrule": "2.6.4"
+  },
+  "description": "The TreeView's plain (one-dimensional) array contains items each of which references its parent item. Use either of the following properties to bind the component to plain data:\n\n\nitems[]\nAssigns a local array as shown in this demo.\n\n\ndataSource\nAssigns a DataSource object that allows you to perform data shaping operations and use a remote source.\n\n\nEach object in the TreeView's plain data structure should include the following fields:\n\n\nid\nUnique item identifier.\n\n\nparentId\nIdentifier of the parent item.\n\n\ntext\nText displayed by the item.\n\n\nYou can respectively use the keyExpr, parentIdExpr, and displayExpr properties to specify custom names for the above-mentioned fields. Node objects can also include developer-defined fields and properties from this help section: items[].\nIn this demo, nodes use the icon and expanded  properties. These properties specify the icon and whether a node is collapsed or expanded. Some nodes also include the developer-defined price field.\n",
+  "name": "plain-data-structure-devextreme-tree-view-forked",
+  "version": "0.0.0",
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
